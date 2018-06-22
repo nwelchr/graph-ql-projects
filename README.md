@@ -1,5 +1,7 @@
 # What problem does GraphQL want to solve?
+
 ### Problems with REST:
+
 - When things start to get super nested
   - If a user has a company_name and a position_name
   - Schema database would need to JOIN on those tables
@@ -12,8 +14,14 @@
 - **Easy to overserve data**
 
 # What is GraphQL?
+
 - A query language that allows data to be queried using a graph data structure
 
+# Lokka vs. Apollo vs. Relay
+
+- Lokka: Super simple. Basic queries, mutations, some simple caching.
+- Apollo: Produced by same guys as Meteor JS. Good balance between features and complexity
+- Relay: Amazing performance for modal. By far the most complex.
 
 # How do we use GraphQL?
 
